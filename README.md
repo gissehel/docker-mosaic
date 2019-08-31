@@ -8,6 +8,13 @@ To run on local X window, the latest version of NCSA (yes, the one from 1997! 2.
  docker run -d --rm -e DISPLAY=:0 -v /tmp/.X11-unix:/tmp/.X11-unix --name=ncsa-mosaic gissehel/mosaic
 ```
 
+## Screenshots
+
 ![The main page](mosaic.png "The main page")
 
 ![The geocities page](mosaic-geocities.png "The geocities page")
+
+## Links
+
+* github page : https://github.com/gissehel/docker-mosaic
+* docker hub page : https://hub.docker.com/r/gissehel/mosaic
